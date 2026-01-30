@@ -1,10 +1,10 @@
 export default function Footer() {
   const socialLinks = [
-    { name: 'GitHub', icon: '⬡', url: 'https://github.com/yourusername' },
-    { name: 'LinkedIn', icon: '◼', url: 'https://linkedin.com/in/yourusername' },
-    { name: 'Twitter', icon: '◆', url: 'https://twitter.com/yourusername' },
-    { name: 'Instagram', icon: '◉', url: 'https://instagram.com/yourusername' },
-    { name: 'Email', icon: '✉', url: 'mailto:your@email.com' },
+    { name: 'GitHub', icon: '⬡', url: 'https://github.com/zagota249/Portfolio' },
+    { name: 'LinkedIn', icon: '◼', url: 'https://www.linkedin.com/in/muhammad-zain-bin-zafar?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' },
+    // { name: 'Twitter', icon: '◆', url: 'https://twitter.com/yourusername' },
+    // { name: 'Instagram', icon: '◉', url: 'https://instagram.com/yourusername' },
+    // { name: 'Email', icon: '✉', url: 'mailto:your@email.com' },
   ]
 
   return (

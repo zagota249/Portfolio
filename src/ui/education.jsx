@@ -7,31 +7,30 @@ export default function Education() {
     {
       degree: "Bachelor's in Computer Science",
       institution: "Your University Name",
-      year: "2020 - 2024",
-      grade: "3.8 GPA",
+      year: "2024-currently",
       icon: "🎓"
     },
     {
       degree: "Intermediate (Pre-Engineering)",
-      institution: "Your College Name",
-      year: "2018 - 2020",
+      institution: "Punjab group of Colleges(campus#8)",
+      year: "2022-24",
       grade: "A+ Grade",
       icon: "📚"
     },
     {
       degree: "Matriculation (Science)",
-      institution: "Your School Name",
-      year: "2016 - 2018",
+      institution: "Government High School",
+      year: "2020-22",
       grade: "A+ Grade",
       icon: "🏫"
     }
   ]
 
   const certifications = [
-    { name: "React Developer Certification", issuer: "Meta", year: "2024" },
-    { name: "AWS Cloud Practitioner", issuer: "Amazon", year: "2023" },
-    { name: "Full Stack Development", issuer: "Coursera", year: "2023" },
-    { name: "Three.js Journey", issuer: "Bruno Simon", year: "2024" },
+    { name: "Advance React", issuer: "Coursera", year: "2024",link:"https://www.coursera.org/account/accomplishments/verify/K0EA0S8QZSKF?utm_source%3Dandroid%26utm_medium%3Dcertificate%26utm_content%3Dcert_image%26utm_campaign%3Dsharing_cta%26utm_product%3Dcourse" },
+    { name: "Version Control", issuer: "Coursera", year: "2024",link:"https://www.coursera.org/account/accomplishments/verify/0ZMXYP8DMXUS?utm_source%3Dandroid%26utm_medium%3Dcertificate%26utm_content%3Dcert_image%26utm_campaign%3Dsharing_cta%26utm_product%3Dcourse" },
+    { name: "Front End Capstone", issuer: "Coursera", year: "2024",link:"https://www.coursera.org/account/accomplishments/verify/1A5EHV3MZYM6?utm_source%3Dandroid%26utm_medium%3Dcertificate%26utm_content%3Dcert_image%26utm_campaign%3Dsharing_cta%26utm_product%3Dcourse" },
+    { name: "UI/UX", issuer: "Coursera", year: "2024",link:"https://www.coursera.org/account/accomplishments/verify/IGLTAFGMKMTP?utm_source%3Dandroid%26utm_medium%3Dcertificate%26utm_content%3Dcert_image%26utm_campaign%3Dsharing_cta%26utm_product%3Dcourse" },
   ]
 
   return (
@@ -70,13 +69,21 @@ export default function Education() {
             <h3>🏆 Certifications</h3>
             <div className="cert-grid">
               {certifications.map((cert, index) => (
-                <div key={index} className="cert-card">
+                <a 
+                  key={index} 
+                  href={cert.link} 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="cert-card"
+                  style={{ textDecoration: 'none', color: 'inherit' }}
+                >
                   <div className="cert-badge">✓</div>
                   <div className="cert-info">
                     <span className="cert-name">{cert.name}</span>
                     <span className="cert-issuer">{cert.issuer} • {cert.year}</span>
                   </div>
-                </div>
+                  <div className="cert-link-icon">🔗</div>
+                </a>
               ))}
             </div>
           </div>

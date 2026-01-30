@@ -729,10 +729,23 @@ html, body, #root {
   border-radius: 8px;
   border: 1px solid rgba(255, 255, 255, 0.05);
   transition: all 0.3s ease;
+  cursor: pointer;
 }
 
 .cert-card:hover {
   border-color: var(--primary);
+  transform: translateY(-2px);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.cert-link-icon {
+  margin-left: auto;
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
+}
+
+.cert-card:hover .cert-link-icon {
+  opacity: 1;
 }
 
 .cert-badge {
@@ -787,6 +800,14 @@ html, body, #root {
   align-items: center;
   justify-content: center;
   font-size: 3rem;
+  overflow: hidden;
+}
+
+.profile-pic {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
 .profile-ring {

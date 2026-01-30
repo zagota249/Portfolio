@@ -10,9 +10,9 @@ export default function Skills() {
       skills: [
         { name: 'React.js', level: 95 },
         { name: 'Three.js', level: 85 },
-        { name: 'TypeScript', level: 90 },
+        // { name: 'TypeScript', level: 90 },
         { name: 'CSS/SASS', level: 92 },
-        { name: 'Next.js', level: 88 },
+        // { name: 'Next.js', level: 88 },
       ]
     },
     {
@@ -20,10 +20,11 @@ export default function Skills() {
       icon: '⚙️',
       skills: [
         { name: 'Node.js', level: 90 },
-        { name: 'Python', level: 85 },
-        { name: 'MongoDB', level: 88 },
-        { name: 'PostgreSQL', level: 82 },
-        { name: 'GraphQL', level: 78 },
+        { name: 'Python', level: 60 },
+        { name: 'MongoDB', level: 80 },
+      //   { name: 'PostgreSQL', level: 82 },
+      //   { name: 'GraphQL', level: 78 },
+      // ]
       ]
     },
     {
@@ -32,9 +33,9 @@ export default function Skills() {
       skills: [
         { name: 'Git/GitHub', level: 95 },
         { name: 'Docker', level: 80 },
-        { name: 'AWS', level: 75 },
+        // { name: 'AWS', level: 75 },
         { name: 'Figma', level: 85 },
-        { name: 'Linux', level: 82 },
+        // { name: 'Linux', level: 82 },
       ]
     }
   ]

@@ -27,8 +27,8 @@ export default function Contact() {
   }
 
   const contactInfo = [
-    { icon: '📧', label: 'Email', value: 'your@email.com' },
-    { icon: '📱', label: 'Phone', value: '+92 300 1234567' },
+    { icon: '📧', label: 'Email', value: 'zaim08121@email.com' },
+    { icon: '📱', label: 'Phone', value: '+92 3484831600' },
     { icon: '📍', label: 'Location', value: 'Pakistan' },
   ]
 

@@ -4,9 +4,9 @@ export default function About() {
   const setCurrentPage = useSceneState((state) => state.setCurrentPage)
 
   const stats = [
-    { number: '5+', label: 'Years Experience' },
-    { number: '50+', label: 'Projects Completed' },
-    { number: '30+', label: 'Happy Clients' },
+    { number: '1+', label: 'Years Experience' },
+    { number: '3+', label: 'Projects Completed' },
+    // { number: '30+', label: 'Happy Clients' },
     { number: '100%', label: 'Dedication' },
   ]
 
@@ -24,13 +24,13 @@ export default function About() {
           <div className="about-intro">
             <div className="profile-image">
               <div className="profile-placeholder">
-                <span>👨‍💻</span>
+                <img src="/picture.jpeg" alt="Muhammad Zain" className="profile-pic" />
               </div>
               <div className="profile-ring"></div>
             </div>
             
             <div className="about-text">
-              <h3>Hello, I'm <span className="highlight">Your Name</span></h3>
+              <h3>Hello, I'm <span className="highlight">Muhammad Zain Bin Zafar</span></h3>
               <p className="tagline">A passionate Full Stack Developer</p>
               <p className="description">
                 I specialize in creating immersive web experiences using modern technologies. 
@@ -56,16 +56,16 @@ export default function About() {
             <div className="timeline-items">
               <div className="timeline-item">
                 <span className="year">2024</span>
-                <span className="event">Senior Developer at Tech Corp</span>
+                <span className="event">Web Developer</span>
               </div>
-              <div className="timeline-item">
+              {/* <div className="timeline-item">
                 <span className="year">2022</span>
                 <span className="event">Started Freelancing</span>
               </div>
               <div className="timeline-item">
                 <span className="year">2020</span>
                 <span className="event">First Developer Job</span>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
